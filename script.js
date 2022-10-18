@@ -18,6 +18,9 @@ const getUsers = async () => {
 
 const getUserPosts = async (userId) => {
     const response = await fetch(`${BASE_API_ENDPOINT}/posts?userId=${userId}`);
+    if (!response.ok) {
+        throw new Error(`Error: ${response.status}`)
+    }
     const posts = await response.json();
     return posts;
 }
