@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+}
+
+#header {
+    text-align: center;
+}
+
+#user-table {
+    border-collapse: collapse;
+    width: 75%;
+    margin: auto;
+    font-size: 1.5em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#user-table th {
+    background-color:  #708090;
+}
+
+#user-table td {
+    padding: 5px 8px;
+}
+
+#user-table tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+#user-table tr:last-of-type {
+    border-bottom: 2px solid #708090;
+}
+
+.user-row:hover {
+    background-color: #D3D3D3;
+    cursor: pointer;
+}
+
+#users-posts h2 {
+    text-align: center;
+}
+
+.posts-list {
+    list-style: none;
+    width: 85%;
+    margin: auto;
+}
+
+.post {
+    padding-bottom: 5px;
+}
