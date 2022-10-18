@@ -39,6 +39,15 @@ body {
     text-align: center;
 }
 
+.posts-list li:nth-of-type(odd) {
+    background-color: #f3f3f3;
+}
+
+.posts-list li:last-of-type {
+    border-bottom: 2px solid #708090;
+    margin-bottom: 25px;
+}
+
 .posts-list {
     list-style: none;
     width: 85%;
